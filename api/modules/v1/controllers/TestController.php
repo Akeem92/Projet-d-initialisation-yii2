@@ -17,7 +17,7 @@ class TestController extends ActiveController
     public function actionTest()
     {
         return [
-            'status' => Status::SUCCESS,
+            'status' => "000",
             'message' => 'Test'
         ];
     }
